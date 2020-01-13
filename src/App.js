@@ -7,7 +7,6 @@ import Contact from "./contact/contact";
 import NotFound from "./notFound/notFound";
 import NavBar from "./navBar/navBar";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
 
 class App extends Component {
   render() {
@@ -16,15 +15,15 @@ class App extends Component {
         <NavBar />
         <main className="container">
           <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/about-us" component={About} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/not-found" component={NotFound} />
+            <Route path="/home" component={Home} />{" "}
+            <Route path="/about-us" component={About} />{" "}
+            <Route path="/gallery" component={Gallery} />{" "}
+            <Route path="/contact" component={Contact} />{" "}
+            <Route path="/not-found" component={NotFound} />{" "}
             <Redirect from="/" exact to="/home" />
             <Redirect to="/not-found" />
-          </Switch>
-        </main>
+          </Switch>{" "}
+        </main>{" "}
       </BrowserRouter>
     );
   }

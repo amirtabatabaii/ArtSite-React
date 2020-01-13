@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Navbar, NavDropdown } from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
