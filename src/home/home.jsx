@@ -18,6 +18,7 @@ class Home extends Component {
           ></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -51,6 +52,20 @@ class Home extends Component {
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Third slide label / Third slide label / Third slide label</p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://via.placeholder.com/350x150"
+              className="d-block w-100"
+              alt="..."
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Fourth slide label</h5>
+              <p>
+                Fourth slide label / Fourth slide label / Fourth slide label /
+                Fourth slide label
+              </p>
             </div>
           </div>
         </div>
