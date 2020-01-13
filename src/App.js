@@ -13,17 +13,17 @@ class App extends Component {
     return (
       <BrowserRouter>
         <NavBar />
-        <main className="container">
+        <main className=".container-fluid">
           <Switch>
-            <Route path="/home" component={Home} />{" "}
-            <Route path="/about-us" component={About} />{" "}
-            <Route path="/gallery" component={Gallery} />{" "}
-            <Route path="/contact" component={Contact} />{" "}
-            <Route path="/not-found" component={NotFound} />{" "}
+            <Route path="/home" component={Home} />
+            <Route path="/about-us" component={About} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/not-found" component={NotFound} />
             <Redirect from="/" exact to="/home" />
             <Redirect to="/not-found" />
-          </Switch>{" "}
-        </main>{" "}
+          </Switch>
+        </main>
       </BrowserRouter>
     );
   }
