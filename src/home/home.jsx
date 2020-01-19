@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Image } from "react-bootstrap";
 
 class Home extends Component {
   //state = {  }
@@ -22,44 +23,28 @@ class Home extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="https://via.placeholder.com/350x150"
-              className="d-block w-100"
-              alt="..."
-            />
+            <Image src="assets/1.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>First slide label</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://via.placeholder.com/350x150"
-              className="d-block w-100"
-              alt="..."
-            />
+            <Image src="assets/1.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Second slide label / Second slide label</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://via.placeholder.com/350x150"
-              className="d-block w-100"
-              alt="..."
-            />
+            <Image src="assets/1.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Third slide label / Third slide label / Third slide label</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://via.placeholder.com/350x150"
-              className="d-block w-100"
-              alt="..."
-            />
+            <Image src="assets/1.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Fourth slide label</h5>
               <p>
